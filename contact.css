@@ -1,0 +1,50 @@
+body{
+    background-image: url(images/student.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: orangered;
+    text-decoration: dashed;
+
+    
+    
+}
+.form{
+    font-size: larger;
+    align-items: end;
+    margin: 20px 400px;
+    border: 5px solid rgb(94, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 255, 255, 0.192);
+    /* color: rgba(255, 68, 0, 0.671); */
+   
+}
+.name{
+    margin: 30px 30px;
+}
+input, select{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding: 8px ;
+    backface-visibility: visible;
+    
+}
+
+h3{
+    margin: 30px 30px;
+    text-decoration: underline;
+}
+span{
+    margin: 10px;
+}
+/* .submit{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(0, 128, 0, 0.562);
+} */

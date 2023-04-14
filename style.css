@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+   text-decoration: none;
+}
+li a:hover{
+    color: rgba(255, 0, 0, 0.623);
+    background-color: rgba(240, 248, 255, 0.63);
+    font-size: 25px;
+}
+.header{
+    height: 30vh;
+    background-color:#ec550f7c;
+    font-size: 20px;
+    display:-webkit-flex;
+   
+}
+.logo img{
+    height: 25vh;
+    margin-top: 15px;
+    margin-left: 20px; 
+    border-radius: 7px;
+}
+
+.header span{
+    display: inline-block;
+    margin: 60px 20px;
+    cursor: pointer;
+   
+  
+}
+.header ul{
+    display: inline-flex;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.header li{
+    padding: 8px;
+    margin: 50px;
+    
+    
+}
+.navbar{
+    height: 15vh;
+    font-size: 20px;
+    background-color: rgba(14, 14, 134, 0.726);
+    
+}.navbar ul{
+    display: flex;
+    text-align: center;
+    margin: 0 30px;
+    
+}
+.navbar li{
+    margin: 30px  60px;
+    padding: 15px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 7px ;
+    
+}
+/* .navbar select{
+    
+    background-color: rgba(14, 14, 134, 0.726);
+} */
+
+.background{
+    height: 100vh;
+    background-image: url(./images/student.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  
+
+}
+.background .heading{
+    margin: 30px 40px;
+    display: inline-block;
+}
+.background .heading h1:hover{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    
+}
+.background .heading h2:hover{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'cursive', Courier, monospace;
+    font-style: oblique;
+    
+}
+
+
+
+.heading h1{
+    color: rgba(255, 0, 0, 0.767);
+    font-size: 30px;
+    
+}
+.heading h2{
+    color: aliceblue;
+}
+.form h1{
+    color: orange;
+    padding: 20px;
+}
+.form {
+    float: right;
+    background-color: #e4751b7c;
+    width: 20vw;
+
+}
+.form legend{
+    font-size: 40px;
+    color: aqua;
+    text-align: center;
+}
+select ,input,label{
+    margin: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    
+}
+
+.main{
+    text-align: center;
+    color: azure;
+    background-color: orangered;
+    margin: auto;
+
+}
+.main p{
+    font-size: 26px;
+    color: black;
+    font-style: oblique;
+    margin: 20px 0;
+}
+.main h2,.main h1{
+    margin: 20px;
+    cursor: pointer;
+    color: aqua;
+}
+
+.section{
+    display: flex;
+    background-color: royalblue;
+}
+.box{
+    margin: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+.box h2{
+    text-align: center;
+    color: rgba(207, 61, 32, 0.685);
+    cursor: pointer;
+    margin: 20px 0;
+}
+.box p{
+    margin-left: 10px;
+}
+.box legend{
+    color: orangered;
+    text-align: center;
+    text-decoration: aliceblue;
+    cursor: pointer;
+}
+.box legend img{
+   width: 7vw;
+}
+.box .arts{
+   height: 14vh;
+}
+.founder {
+    display: flex;
+    
+}
+.founder .box1{
+    background-color: orangered;
+}
+.founder .box2{
+    background-color: rgb(193, 196, 16);
+    
+}
+.founder .box h1{
+    color:rgb(247, 239, 243);
+    margin: 20px 0;
+    
+    text-align: center;
+    text-decoration: underline;
+}
+.founder .box h3{
+    color:rgba(223, 213, 210, 0.993);
+    margin: 20px 20px;
+    text-align: center;
+
+}
+.founder .founder-img img{
+    height: 85vh;
+    margin-left: 115px;
+    
+}
+.founder .founder-img span{
+    color: orangered;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+
+}
+.student-image h1{
+    color: orangered;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+}
+.student-image p{
+    color: rgb(26, 10, 5);
+    font-weight: 900;
+    font-size: 25px;
+    font-style: italic;
+    margin: 20px 50px;
+}
+.student-image .child-img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.student-image .child-img img{
+    height: 40vh;
+}
+.student-image .child-img .child3{
+   height: 40vh;
+}
+.our-gallery .child-img img{
+    width: 23vw;
+}
+.our-gallery  h2{
+   text-align: center;
+   margin: 30px 0;
+   color: orangered;
+   text-decoration: underline;
+}
+.footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

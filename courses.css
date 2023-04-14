@@ -1,0 +1,43 @@
+.services h1 ,legend{
+    color: orangered;
+    font-size:45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.services h1{
+    margin-bottom: 20px;
+}
+
+.services{
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    background-color: rgba(255, 228, 196, 0.438);
+
+}
+.services li{
+    margin: 10px 40px;
+    padding: 10px 25px;
+    border: 2px solid rgba(44, 150, 177, 0.685);
+    border-radius: 15px;
+   width: 30vw;
+   text-align: center;
+}
+legend{
+    text-align: center;
+   color: hotpink;
+   
+}
+.services h2{
+    color: rgba(255, 68, 0, 0.555);
+    font-size:45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.services h2:hover{
+    color: rgba(255, 68, 0, 0.562);
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form h1{
+    color: orange;
+    padding: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.main {
+    float: center;
+    background-image:url(images/student.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+.form{
+    height: 60vh;
+}
+.form legend{
+    font-size: 40px;
+    color: aqua;
+    text-align: center;
+}
+select ,input,label{
+    margin: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
