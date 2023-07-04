@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(./images/img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 120%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(50, 51, 51, 0.709);
+    width: 100vw;
+    overflow-x: hidden;
+}
+.announcement{
+    /* margin: 40px;
+    padding: 20px; */
+    margin: 3vw;
+    padding: 2vw;
+}
+/* hr{
+    
+    margin: 20px 0px;
+} */
+.main .announcement h1{
+    font-size: 3rem;
+    color: rgb(196, 191, 191);
+    margin-bottom: 1vh;
+}
+.main .announcement h1:hover{
+    font-size: 3rem;
+    transform: 1s;
+    color: rgb(219, 29, 29);
+    background-color: rgba(240, 255, 255, 0.655);
+}
+.announcement .para{
+    font-size: 2rem;
+    text-emphasis: bolds;
+    margin-left: -2vw;
+    margin-bottom: 2vh;
+    color: rgba(173, 100, 28, 0.753);
+}
+.announcement  li p{
+    font-size: 1.5rem;
+    color: rgba(205, 193, 207, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.aptitude a{
+    margin: top 3vh;;
+    color: rgba(255, 0, 0, 0.678);
+    font-size: 1.5rem;
+}
+/* .aptitude{
+    margin-left: -30px;
+} */
+.aptitude :hover{
+    transform: scaleY(1.2);
+    color: rgba(0, 192, 0, 0.5);
+}
+.login{
+    margin: 2vw;
+    padding: 1vh;
+}
+select,input{
+    margin: 6px 0px;
+    width: 30vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    border-radius: 3vw;
+}
+select,input:hover{
+    background-color:rgba(121, 149, 186, 0.752)
+}
+#sub{
+    background-color: red;
+    color: aliceblue;
+}
+/* .change{
+
+} */
+
+@media screen and (max-width: 750px) {
+   .login img{
+    margin-top: 40vh;
+    max-width:25vw;
+    margin-bottom: 10vh;
+   }
+   .announcement{
+    margin-left:2vw;
+   }
+   
+}
+@media screen and (max-width:600px) {
+    .login img{
+        display: block;
+        margin: auto;
+        margin-top: 0vh;
+        max-width: 60vw;
+        margin-bottom:3vh;
+       }
+    select,input{
+        margin: 6px 0px;
+        width: 80vw;
+        height: 7vh;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bolder;
+        border-radius: 3vw;
+    }
+   .main{
+    display: flex;
+    flex-direction: column;
+   }
+}

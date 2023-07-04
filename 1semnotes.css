@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+#cross-bar{
+    position: relative;
+    left: 20vw;
+}
+.menu{
+    display: none;
+    transition: 1s;
+}
+.show{
+    display: block;
+    transition: 1s;
+}
+.menu div{
+    display: flex;
+    /* margin-left: 20px;    */
+    margin: 15px 10px 15px 10px;
+   text-decoration-line: initial;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.692);
+}
+.menu div h2{
+    margin-left: 1vw; 
+    font-size: 1.5rem;  
+}
+.menubar{
+    background-color: #5d5858;
+    width: 25%;
+    height: 100%;
+}
+.menu div a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu div {
+   margin-left: 1.5vw;
+}
+.menu div a:hover{
+    color: rgba(159, 163, 152, 0.589);
+}
+.menu div i:hover{
+    color: rgba(239, 243, 233, 0.959);
+}
+

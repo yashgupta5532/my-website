@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+}
+.hidden{
+    display: none;
+    transition: 1s;
+}
+.menu-logo img{
+    width: 20vw;
+    margin-top: 5vh;
+    margin-left: .3vw;
+}
+.menu-logo span{
+    position: absolute;
+    top: 12vh;
+    left: 22vw;
+    color: white;
+}
+.menu div{
+    display: flex;
+    /* margin-left: 20px;    */
+    margin: 15px 10px 15px 10px;
+   text-decoration-line: initial;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.692);
+}
+.menu div h2{
+    margin-left: 1vw; 
+    font-size: 1.5rem;  
+}
+.menubar{
+    background-color: rgb(53, 47, 47);
+    /* margin-left: 20px;   */
+    width: 35%;
+    height: 100%;
+}
+.menu div a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu div {
+   margin-left: 1.5vw;
+}
+.menu div a:hover{
+    color: rgba(86, 104, 44, 0.589);
+}
+.menu div i:hover{
+    color: rgba(239, 243, 233, 0.959);
+}
+.main{
+   width: 100%;
+}
+.main .mms{
+    margin: 4vw 4vw;
+    width: 100%;
+    cursor: pointer;
+}
+.main .mms h2{
+    margin-left:60vw;
+    /* display:inline; */
+}
+.main .part{
+    margin: 6vw 4vh 2vw;
+    display: flex;
+    background-image: url(images/college.jpeg);
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    opacity: 0.7;
+}
+.main .full{
+    margin-left: -25vw;
+    transition: .6s;
+}
+.main .part .naac img{
+    width: 100%;
+    position: relative;
+    top: 27%;
+    left: -31%;
+   
+}
+.main .part .info-container {
+    height: 100%;
+    width: 80%;
+    margin-right: 3vw;
+    margin-top: .7vw;
+    text-align: center;
+    padding: 10px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    
+}
+
+.main .info-container .info{
+   /* height: 20%; */
+   min-width: 20vw;
+   min-height: 20vh;
+   color: whitesmoke;
+   margin: 4vh 0;
+   opacity: 1;
+   font-size: 1.3rem;
+}
+.main .part .info-container a{
+    text-decoration: none;
+    color: white;
+}
+.main .part .info-container .info p{
+    font-size: .9;
+}
+.main .part .info-container .info:hover{
+    transform: scale(1.15);
+}
+
+.main .info-container .info h1{ 
+  font-size: 1.9rem;
+  color: black;
+  font-weight: bolder; 
+}
+.main .info-container .info h4{ 
+  font-size: 1.2rem;
+}
+
+.main .info-container .info-1{
+    background-color: rgb(189, 7, 7);
+    
+}
+.main .info-container .info-2{
+    background-color: rgb(2, 48, 6);
+}
+.main .info-container .info-3{
+    background-color: rgb(223, 191, 15);
+}
+.main .info-container .info-4{
+    background-color: rgb(46, 14, 189);
+}
+
+
+
+
+@media screen and (max-width:940px){
+    .mms h2{
+        margin-right: 15vw;
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    
+    /* .info-container .info{
+        max-width: 30vw;
+        max-height: 30vh;
+    } */
+    #cross-bar{
+        padding-right: 2vw;
+        color: black;
+    }
+    .info-container .info{
+        position: relative;
+        right: 5vw;
+     }
+}
+@media screen and(max-width:700px) {
+    .full .naac{
+        display: none;
+        width: 0px;
+    }
+    
+}
+@media  screen and (max-width:530px) {
+    
+    .menu div {
+        margin-right:3vw;
+    }
+    
+    #exit {
+        display: hidden;
+    }
+    .menubar{
+        width: max-content;
+    }
+    .info-container {
+        position: relative;
+        top: 20vh;
+        float: left;
+        flex-wrap: wrap;
+        /* display: grid;
+        column-gap: 3vh;
+        grid-template-rows: auto  auto;
+        grid-template-columns: auto auto; */
+    }
+    .info-container .info{
+        min-width: 30vw;
+        height: 30vw;
+        margin: 0 1vw;
+       position: relative;
+       float: left;
+       margin: 1vw 0;
+    }
+}

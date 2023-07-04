@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="02_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="menubar ">
+        <div class="menu-logo ">
+            <img src="./images/mmu-logo.png" alt="logo">
+            <button id="cross">
+                <span id="cross-bar"><i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                </span></button>
+
+        </div>
+        <div class="menu hidden" id="exit">
+            <div>
+                <i class="fa fa-college fa-2x" aria-hidden="true"></i>
+                <a href="./index.html">
+                    <h2 style="color:dodgerblue"><i> VISIT MMDU</h2></i>
+                </a>
+            </div>
+            <div>
+                <i class="fa fa-tachometer fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Dashboard</h2>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>payment</h2>
+                </a>
+            </div>
+            <div>
+                <i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Fee and Receipt</h2>
+                </a>
+            </div>
+            <div>
+                <i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Attendence Record</h2>
+                </a>
+            </div>
+            <div>
+                <i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Daily-punch Record</h2>
+                </a>
+            </div>
+            <div>
+                <i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Exam-Form</h2>
+                </a>
+            </div>
+            <div>
+                <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Student-Profile</h2>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Exam date sheet/Notice</h2>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Result</h2>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Request-Form</h2>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Apply for Hostel</h2>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                <a href="#">
+                    <h2>Change password</h2>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="mms">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span>MMDU-UMS(STUDENT)</span>
+            <h2>Log-Out</h2>
+            <hr>
+        </div>
+        <div class="part full" id="fullwidth">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span>
+                <h2>
+                    NAME : YASH GUPTA
+                    ROLL NO: 11222868 BRANCH:BTECH-CSE</h2>
+            </span>
+            <div class="naac">
+                <img src="./images/naac.jpg" alt="naac">
+            </div>
+
+            <div class="info-container">
+                <div class=" info info-1">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <h1>Make payment</h1>
+                        <p>Total amount due :</p>
+                    </a>
+                </div>
+                <div class="info info-2">
+                    <a href="#">
+                        <h1>Subjects</h1>
+                        <h4>Exam-form</h4>
+                        <p>Total Subjects choosed</p>
+                    </a>
+                </div>
+                <div class="info info-3">
+                    <a href="#">
+                        <h1>Request</h1>
+                        <h4>Student request-form</h4>
+                        <p>Loan form ,exam <br> results ,confidential results</p>
+                    </a>
+                </div>
+                <div class="info info-4">
+                    <a href="#">
+                        <h1>Bus</h1>
+                        <h4>Select Bus route</h4>
+                        <p>Select Bus route</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let cross = document.getElementById('cross');
+        let exit = document.getElementById('exit');
+        let fullwidth = document.getElementById('fullwidth');
+        cross.addEventListener('click', (e) => {
+            exit.classList.toggle('hidden');
+            fullwidth.classList.toggle('full');
+        });
+
+
+
+    </script>
+</body>
+
+</html>

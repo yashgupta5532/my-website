@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="01_style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="announcement">
+            <h1>Announcements</h1>
+            <hr>
+            <div class="para">
+                <p>Attention: Admission Seekers for <br> the Academic Year 2022-23</p>
+            </div>
+            <ul>
+                <li class="pa">
+                    <p>Please select <b>Student</b> <br> in the Tab 'Select <br> Role'</p>
+                </li>
+                <li>
+                    <p>Username: Your <b>Admission</b> <br> Form Number is Username <br> (e.g. MMDU/UG_22/B.Tech/......)
+                    </p>
+                </li>
+                <li>
+                    <p><b>Password</b> Your Ten <br> Digits Mobile Number (As <br> filled in the Admission Form)</p>
+                </li>
+                <div class="aptitude">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <h2>Click here for Aptitude Test</h2>
+                    </a>
+                </div>
+            </ul>
+        </div>
+        <div class="login">
+            <img src="./images/mmu-logo.png" alt="mmu-logo"><br>
+            <select name="" id="">select your role
+                <option value="role">teacher</option>
+                <hr>
+                <option value="role">student</option>
+                <hr>
+                <option value="role">others</option>
+            </select><br>
+            <input type="number" placeholder="Roll no."><br>
+            <input type="password" placeholder="password"><br>
+            <a href="02_index.html" target="_blank" rel="noopener noreferrer"><input type="submit" value="Login"
+                    id="sub" onclick="myfunc"><br></a>
+
+        </div>
+    </div>
+
+    <script>
+        function myfunc() {
+            change = document.getElementById('sub')
+            change.classList.add(change);
+        }
+    </script>
+</body>
+
+</html>
